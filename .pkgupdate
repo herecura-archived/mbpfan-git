@@ -1,0 +1,7 @@
+checksumupdate=0
+update_pkgver=""
+pwd=$PWD
+cd $SRCDEST/$pkgname
+git fetch --all -p
+update_pkgver=$(git describe --tags | sed 's/^v//;s/\([^-]*-g\)/r\1/;s/-/./g')
+cd $pwd
