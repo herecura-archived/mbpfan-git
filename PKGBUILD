@@ -2,7 +2,7 @@
 # Contributor: Allan McRae <allan at_archlinux_dot org>
 
 pkgname=mbpfan-git
-pkgver=1.9.1.r50.gedf722c
+pkgver=1.9.1.r51.ga8e5a4c
 pkgrel=1
 pkgdesc="Automatically adjust the fan on a MacBook Pro"
 arch=('x86_64' 'i686')
